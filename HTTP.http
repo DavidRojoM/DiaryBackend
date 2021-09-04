@@ -16,3 +16,11 @@ Content-Type: application/json
   "password": "pass"
 }
 ###
+### GET PUBLIC TASKS
+GET http://localhost:3000/api/tasks
+
+###
+### GET PRIVATE TASKS
+GET http://localhost:3000/api/private
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTMyZDFiNzBmMDAzMWFiMzUyMjM2OGYiLCJpYXQiOjE2MzA3MjEwNDl9.ZjlvYFcRtAs3GPAzUpJfxDTFpzfLQJN0XGhlXlgu6mI
+###
