@@ -1,0 +1,18 @@
+### POST SIGNUP
+POST http://localhost:3000/api/signup
+Content-Type: application/json
+
+{
+  "email": "david1@prueba.com",
+  "password": "pass"
+}
+###
+### POST SIGNIN
+POST http://localhost:3000/api/signin
+Content-Type: application/json
+
+{
+  "email": "david1@prueba.com",
+  "password": "pass"
+}
+###
